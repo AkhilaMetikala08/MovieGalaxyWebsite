@@ -52,18 +52,14 @@ Note that Firebase is only required for Google authentication. If you are not us
 - Go to the Firebase Console and create a new app.
 - After creating the app, build a web app by clicking "Add App" and following the instructions.
 
-![Firebase Add App Screenshot]
-
-![Firebase Build App Screenshot]
-
 - Copy the configuration information provided in the green line, and paste it into the `.env` file:
 
-![image]
+
 
 - Next, to activate Google authentication in Firebase, go to **Build > Authentication** and enable Google authentication.
 - To use Google authentication in localhost, add your localhost/127.0.0.1 as an Authorized Domain at **Build > Authentication > Settings > Authorized Domains** and add localhost or 127.0.0.1 to this section.
 
-![image](https://user-images.githubusercontent.com/87109400/231575419-ca703ebd-5380-45b6-8afe-33b9c1af778e.png)
+
 
 ## Step 3: Run the Website
 
