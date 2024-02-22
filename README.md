@@ -2,7 +2,7 @@
 MovieGalaxy is a React-based movie website that allows users to search for movies by title, sort them by genre, view trending and upcoming movies, and bookmark their favorite movies. The website is designed to be user-friendly and visually appealing.
 <hr/>
 
-![background]!(Capture.PNG)
+![background]!(Capture.png)
 
 <hr/>
 
@@ -52,13 +52,13 @@ Note that Firebase is only required for Google authentication. If you are not us
 - Go to the Firebase Console and create a new app.
 - After creating the app, build a web app by clicking "Add App" and following the instructions.
 
-![Firebase Add App Screenshot](https://user-images.githubusercontent.com/87109400/231569204-445d8007-fe75-4012-a21b-a71f4f4bc697.png)
+![Firebase Add App Screenshot]
 
-![Firebase Build App Screenshot](https://user-images.githubusercontent.com/87109400/231568774-1ea09ada-34b8-4035-80d4-90ac79c1c8ed.png)
+![Firebase Build App Screenshot]
 
 - Copy the configuration information provided in the green line, and paste it into the `.env` file:
 
-![image](https://user-images.githubusercontent.com/87109400/231570250-9256c1bc-6669-423a-8b95-06d9577485a0.png)
+![image]
 
 - Next, to activate Google authentication in Firebase, go to **Build > Authentication** and enable Google authentication.
 - To use Google authentication in localhost, add your localhost/127.0.0.1 as an Authorized Domain at **Build > Authentication > Settings > Authorized Domains** and add localhost or 127.0.0.1 to this section.
